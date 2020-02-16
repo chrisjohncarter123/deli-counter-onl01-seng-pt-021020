@@ -5,11 +5,11 @@ katz_deli = []
 #"The line is currently: 1. Logan 2. Avi 3. Spencer"
 def line(other_deli)
   result = ""
-  if(katz_deli.length == 0)
+  if(other_deli.length == 0)
     result = "The line is currently empty."
   else
     result = "The line is currently: "
-    katz_deli.each_with_index do |name, index|
+    other_deli.each_with_index do |name, index|
       result += "#{index + 1}. #{name} "
     end
   
