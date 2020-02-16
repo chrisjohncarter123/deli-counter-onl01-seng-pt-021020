@@ -12,9 +12,9 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       result += "#{index + 1}. #{name} "
     end
-  puts result
-  end
   
+  end
+  puts result
 end
 
 #The line is currently: 1. Amanda 2. Annette 3. Ruchi 4. Jason 5. Logan 6. Spencer 7. Avi 8. Joe 9. Rachel 10. Lindsey
