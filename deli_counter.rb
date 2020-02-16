@@ -3,7 +3,7 @@
 katz_deli = []
 
 #"The line is currently: 1. Logan 2. Avi 3. Spencer"
-def line(katz_deli)
+def line(other_deli)
   result = ""
   if(katz_deli.length == 0)
     result = "The line is currently empty."
