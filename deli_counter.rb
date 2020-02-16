@@ -28,4 +28,8 @@ def take_a_number(katz_deli, new)
     puts "Welcome, #{new}. You are number #{katz_deli.length} in line."
   end
 end
+
+def now_serving
+  
+end
   
