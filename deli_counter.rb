@@ -9,10 +9,11 @@ def line(katz_deli)
     result = "The line is currently empty."
   else
     result = "The line is currently: "
-    katz_deli.each_with_index do |name, index|
+    
+  end
+  katz_deli.each_with_index do |name, index|
       result += "#{index}. #{name} "
     end
-  end
   puts result
 end
 
