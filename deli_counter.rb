@@ -9,7 +9,10 @@ def line(other_deli)
   else
     result = "The line is currently: "
     other_deli.each_with_index do |name, index|
-      result += "#{index + 1}. #{name} "
+      result += "#{index + 1}. #{name}"
+      if(index != other_deli.length - 1)
+        result += " "
+      end
     end
     puts result
   end
