@@ -25,6 +25,7 @@ def take_a_number(katz_deli, new)
     puts "Welcome, #{new}. You are number 1 in line."
   else
     katz_deli << new
+    puts "Welcome, #{new}. You are number #{katz_deli.length} in line."
   end
 end
   
