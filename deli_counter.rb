@@ -29,7 +29,9 @@ def take_a_number(katz_deli, new)
   end
 end
 
-def now_serving
-  
+def now_serving(katz_deli)
+  if(katz_deli.length == 0)
+    puts
+  end
 end
   
